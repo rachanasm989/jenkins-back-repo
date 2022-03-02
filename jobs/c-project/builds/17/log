@@ -1,0 +1,27 @@
+Started by GitHub push by shobarani15
+Running as SYSTEM
+Building remotely on [8mha:////4F2l+az+u/MHx6/xoMCANAj90y7eA6cUDM3m6oK7lm6HAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eA8oEMNAUOgcXDFAAAA[0mSnode1 in workspace /home/ubuntu/workspace/c-project
+The recommended git tool is: NONE
+using credential 3d70fb64-1894-4265-80c9-08f2dcb3c7f1
+Cloning the remote Git repository
+Cloning repository https://github.com/shobarani15/C-Project.git
+ > git init /home/ubuntu/workspace/c-project # timeout=10
+Fetching upstream changes from https://github.com/shobarani15/C-Project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/shobarani15/C-Project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/shobarani15/C-Project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision af2e8d8777af1f86fb1632925721dd8d2f93aae7 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f af2e8d8777af1f86fb1632925721dd8d2f93aae7 # timeout=10
+Commit message: "Update rev.c"
+ > git rev-list --no-walk 1730c6858044ac2a303a9f419abe9f330a873641 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins17646061499423723263.sh
++ make
+/tmp/jenkins17646061499423723263.sh: 2: make: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

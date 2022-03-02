@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-26 02:28:35.53 UTC</timestamp>
+  <md5sum>ee1178a4b595dd8ab3b9f6f0207927eb</md5sum>
+  <fileName>Credential id=3d70fb64-1894-4265-80c9-08f2dcb3c7f1 name=shobarani15/******</fileName>
+  <usages>
+    <entry>
+      <string>c-project</string>
+      <ranges>2-18</ranges>
+    </entry>
+    <entry>
+      <string>Java -Project</string>
+      <ranges>1-661</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

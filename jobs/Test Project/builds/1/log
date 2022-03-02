@@ -1,0 +1,7 @@
+Started by user [8mha:////4KcqThLuJQzwueSufnhUhZy4YHaHyws+Y3RBo+BRv7ZZAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZB/dLi1CL94oz8pMSixLxMQ1MA+TaWWMYAAAA=[0mSobharani
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Test Project
+[Test Project] $ /bin/sh -xe /tmp/jenkins13988766800598696516.sh
++ echo Test success
+Test success
+Finished: SUCCESS

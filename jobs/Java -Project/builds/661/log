@@ -1,0 +1,59 @@
+Started by user [8mha:////4KcqThLuJQzwueSufnhUhZy4YHaHyws+Y3RBo+BRv7ZZAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZB/dLi1CL94oz8pMSixLxMQ1MA+TaWWMYAAAA=[0mSobharani
+Running as SYSTEM
+Building remotely on [8mha:////4F2l+az+u/MHx6/xoMCANAj90y7eA6cUDM3m6oK7lm6HAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eA8oEMNAUOgcXDFAAAA[0mSnode1 in workspace /home/ubuntu/workspace/Java -Project
+The recommended git tool is: NONE
+using credential 3d70fb64-1894-4265-80c9-08f2dcb3c7f1
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/Java -Project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/shobarani15/hello-world-java.git # timeout=10
+Fetching upstream changes from https://github.com/shobarani15/hello-world-java.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/shobarani15/hello-world-java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4947e1e9e32f20606f186e5f7267286b848beb3e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4947e1e9e32f20606f186e5f7267286b848beb3e # timeout=10
+Commit message: "Updating README.md"
+ > git rev-list --no-walk 4947e1e9e32f20606f186e5f7267286b848beb3e # timeout=10
+[Java -Project] $ /bin/sh -xe /tmp/jenkins1107780627061981086.sh
++ mvn clean package
+/tmp/jenkins1107780627061981086.sh: 2: mvn: not found
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: shobarani15@gmail.com
+ERROR: Couldn't connect to host, port: localhost, 25; timeout 60000
+com.sun.mail.util.MailConnectException: Couldn't connect to host, port: localhost, 25; timeout 60000;
+  nested exception is:
+	java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2210)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)
+	at javax.mail.Service.connect(Service.java:342)
+	at javax.mail.Service.connect(Service.java:222)
+	at javax.mail.Service.connect(Service.java:171)
+	at javax.mail.Transport.send0(Transport.java:230)
+	at javax.mail.Transport.send(Transport.java:100)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:178)
+	at hudson.tasks.Mailer.perform(Mailer.java:141)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:806)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:755)
+	at hudson.model.Build$BuildExecution.post2(Build.java:178)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:699)
+	at hudson.model.Run.execute(Run.java:1913)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:99)
+	at hudson.model.Executor.run(Executor.java:432)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:333)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)
+	... 18 more
+Finished: FAILURE

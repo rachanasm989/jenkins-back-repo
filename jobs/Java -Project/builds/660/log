@@ -1,0 +1,27 @@
+Started by user [8mha:////4KcqThLuJQzwueSufnhUhZy4YHaHyws+Y3RBo+BRv7ZZAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZB/dLi1CL94oz8pMSixLxMQ1MA+TaWWMYAAAA=[0mSobharani
+Running as SYSTEM
+Building remotely on [8mha:////4F2l+az+u/MHx6/xoMCANAj90y7eA6cUDM3m6oK7lm6HAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eA8oEMNAUOgcXDFAAAA[0mSnode1 in workspace /home/ubuntu/workspace/Java -Project
+The recommended git tool is: NONE
+using credential 3d70fb64-1894-4265-80c9-08f2dcb3c7f1
+Cloning the remote Git repository
+Cloning repository https://github.com/shobarani15/hello-world-java.git
+ > git init /home/ubuntu/workspace/Java -Project # timeout=10
+Fetching upstream changes from https://github.com/shobarani15/hello-world-java.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/shobarani15/hello-world-java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/shobarani15/hello-world-java.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4947e1e9e32f20606f186e5f7267286b848beb3e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4947e1e9e32f20606f186e5f7267286b848beb3e # timeout=10
+Commit message: "Updating README.md"
+ > git rev-list --no-walk 4947e1e9e32f20606f186e5f7267286b848beb3e # timeout=10
+[Java -Project] $ /bin/sh -xe /tmp/jenkins17039409325070504088.sh
++ echo Compile Successful
+Compile Successful
+Triggering a new build of [8mha:////4O9ZnWxTxHtU2TexZjYh0gHsvTiDQJlNolfXgtajcoQnAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYR/az8JP2Q1OISVSODgKL8rNTkEn0ApzYXF8kAAAA=[0mTest Project
+Finished: SUCCESS
